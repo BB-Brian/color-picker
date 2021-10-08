@@ -4,12 +4,10 @@
 //#000 -> #000000
 //#123 -> #112233
 //3. Additional validation: add valid hex chars, 0-9 or a-f;
-
-//CHALLENGE 2
-//check if input from user is valid hex color
 //hex color
 
-//CHALLENGE 1
+
+//CHALLENGE 
 //Get a ref to hexInput and inputColor DOM elements
 //Create a keyup event handler for hexInput
 //Check if hex color is valid 
