@@ -1,25 +1,27 @@
 <html>
-  <head>
-    <link rel="stylesheets" href="index.css">
-  </head>
-  <body>
-    slider - 0-100
-    inputcolor and the altered color
-    <div class="container">
-      <h1 class="title">Color Lighten/Darken</h1>
-    </div>
-    <label for="hex">Color (Hex)</label>
-    <input type="text" name="hex" id="hexInput"
-      placeholder="#000000">
 
+<head>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">Color Lighten/Darken</h1>
+    <label for="hex">Color (Hex)</label>
+    <input type="text" name="hex" id="hexInput" placeholder="#000000">
+    
     <label for="slider" id="sliderText">0%</label>
-    <input type="range" min="0" max="100" value="0"
-      class="slider" id="slider" name="slider">
+    <input type="range" min="0" max="100" value="0" class="slider" id="slider" name="slider">
     <p>Input Color</p>
     <div id="inputColor" class="box"></div>
     <p>Altered Color</p>
     <div id="alteredColor" class="box"></div>
+  </div>
 
-    <script scr="index.pack.js"></script>
-  </body>
+  <script scr="index.pack.js"></script>
+</body>
+
 </html>
