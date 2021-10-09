@@ -47,3 +47,33 @@ input[type="text"] {
 .slider:hover {
   opacity: 1;
 }
+.toggle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.toggle-text {
+  font-size: 18px;
+}
+.toggle-btn {
+  height: 30px;
+  width: 60px;
+  background-color: gray;
+  border-radius: 30px;
+  padding: 5px;
+  margin: 0 10px;
+}
+.inner-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  transition: all 250ms;
+}
+.toggle-btn.toggled > .inner-circle {
+  transform: translateX(30px);
+  background:#333;
+}
+.unselected {
+  opacity: 0.25;
+}
